@@ -6,27 +6,27 @@ ios_app_id                                : 1234793120                          
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://harishsg.me                                         # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    : https://github.com/HariAcidReign/AutoDoc                                     # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : AutoDoc                                       # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : A React Native + Expo app that gets form input via voice or keyboard, and converts it into SMS text or PDF document to be shared via Email or Whatsapp
+app_description                           : A React Native app created using Expo, that gets prescription form input and converts it into SMS text or PDF document to be shared with the patients.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Harish                               
-your_link                                 : https://harishsg.me                     
+your_name                                 : Hariharan                               
+your_link                                 :             
 your_city                                 : India                            
-email_address                             : harishsg99@gmail.com
+email_address                             : haran465@gmail.com
 facebook_username                         :                                           
-instagram_username                        : mr_x_hacker
-twitter_username                          : harish_coder
-github_username                           : harishsg99
+instagram_username                        : harikaapi_right
+twitter_username                          : 
+github_username                           : HariAcidReign
 youtube_username                          :
 
 
@@ -34,16 +34,16 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Login via email and password using Firebase 
-    description                           : This is to ensure that only registered doctors can use the app
+  - title                                 : Login using Firebase 
+    description                           : Ensures maximum security and privacy
     fontawesome_icon_name                 : lock
     
   - title                                 : Input of prescription details using voice (Beta) and keyboard
-    description                           : Details of the patients such as name, age, phone number, symptoms, diagnosis and medication are given 
-    fontawesome_icon_name                 : pencil
+    description                           : Details of the patients is given as input. Google Speech to Text API is hosted on Heroku. 
+    fontawesome_icon_name                 : pen-nib
 
-  - title                                 : Share as SMS or PDF(Beta) via Whatsapp or Email
-    description                           : This is to ensure that the prescription is understandable and can be accessed for future reference
+  - title                                 : Share as SMS or PDF (Beta) via Whatsapp or Email
+    description                           : The prescription is understandable and can be accessed for future reference by both the doctor and the patient.
     fontawesome_icon_name                 : share-alt
 
   
